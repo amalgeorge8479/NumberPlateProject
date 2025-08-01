@@ -21,7 +21,7 @@ model, reader = YOLO(MODEL_PATH), easyocr.Reader(['en'])
 #APi to fetch vehicle info
 def fetch_vehicle_info(plate):
     url = "https://uk.api.vehicledataglobal.com/r2/lookup"
-    API_KEY = "3FF4A98B-F1D7-4B79-B7E6-F506EF9B2CC6"
+    API_KEY = "Your_API_key"
     PACKAGE_NAME = "VehicleDetails"
     params = {
         "packagename": PACKAGE_NAME,
