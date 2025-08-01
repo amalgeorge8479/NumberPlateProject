@@ -1,0 +1,23 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ==== Media Files ====
+*.jpg
+*.png
+*.mp4
+
+# ==== Output Files ====
+*.csv
+*.xlsx
+
+# ==== Large Files ====
+*.zip
+*.pt
+!best.pt
+
+plates.db
+bfg.jar
+dataset/
