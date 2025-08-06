@@ -1,4 +1,4 @@
-# Number Plate Detection System
+# 🚗 Number Plate Detection System
 
 This project detects UK number plates from images or videos using YOLOv8 and EasyOCR, and displays vehicle details using a public API in a simple Streamlit web interface.
 
@@ -10,7 +10,7 @@ This project detects UK number plates from images or videos using YOLOv8 and Eas
 - Streamlit (for UI)
 - SQLite & CSV/Excel Export
 
-## 🚀 Features
+##  Features
 
 - 📸 **Image and Video Input** – Upload from browser UI  
 - 🅿️ **Automatic Plate Detection** – Detects and crops plates using YOLOv8  
@@ -23,7 +23,7 @@ This project detects UK number plates from images or videos using YOLOv8 and Eas
 
 ### How to Run
 
-## 1. 📦 Install Dependencies
+## 1.  Install Dependencies
 
 Make sure you have Python installed, then run:
 
@@ -31,7 +31,7 @@ Make sure you have Python installed, then run:
 pip install streamlit opencv-python ultralytics easyocr pandas numpy requests
 ```
 
-## 2. ▶️ Run the Streamlit App
+## 2.  Run the Streamlit App
 
 Start the application with:
 
